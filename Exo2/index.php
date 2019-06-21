@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <a href="index.php?lastname=Nemare&firstname=Jean">Vérifier paramètres URL</a>
+    <a href="index.php?lastname=Nemare&amp;firstname=Jean">Vérifier paramètres URL</a>
     <!-- isset va vérifier que la variable "âge" existe -->
     <?php if (isset($_GET['age'])) { ?>
     <!-- Si la variable "âge" existe, alors le message suivant sera affiché : -->

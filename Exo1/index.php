@@ -10,10 +10,10 @@
     <!-- penser à remplacer le & par &amp; dans le lien -->
     <a href="index.php?lastname=Nemare&amp;firstname=Jean">Vérifier paramètres URL</a>
     <?php if (isset($_GET['lastname']) && isset($_GET['firstname'])) { ?>
-    <p>Bonjour <?= $_GET['firstname'] . ' ' . $_GET['lastname'] ?></p>
+        <p>Bonjour <?= $_GET['firstname'] . ' ' . $_GET['lastname'] ?></p>
     <?php }
     else { ?>
-    <p>Les valeurs n'existent pas.</p>
+        <p>Les valeurs n'existent pas.</p>
     <?php } ?>
 </body>
 
