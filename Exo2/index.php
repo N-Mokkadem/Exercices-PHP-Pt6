@@ -11,11 +11,11 @@
     <!-- isset va vérifier que la variable "âge" existe -->
     <?php if (isset($_GET['age'])) { ?>
     <!-- Si la variable "âge" existe, alors le message suivant sera affiché : -->
-    <p>Bonjour <?= $_GET['firstname'] ?> <?= $_GET['lastname'] ?> vous avez <?= $_GET['age'] ?> !</p>
+        <p>Bonjour <?= $_GET['firstname'] . ' ' . $_GET['lastname'] ?> vous avez <?= $_GET['age'] ?> ans !</p>
     <!-- Si la variable n'existe pas, alors le message suivant sera affiché : -->
     <?php }
-else { ?>
-    <p>L'âge n'est pas renseigné.</p>
+    else { ?>
+        <p>L'âge n'est pas renseigné.</p>
     <?php } ?>
 
 </body>

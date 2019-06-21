@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Excercice 3</title>
+    <title>Exercice 3</title>
 </head>
 
 <body>
@@ -11,11 +11,11 @@
     <!-- isset va vérifier que les deux variables existent en utilisant l'opérateur "&&"-->
     <?php if (isset($_GET['startDate']) && isset($_GET['endDate'])) { ?>
     <!-- Si les paramètres existent dans l'URL, alors la page affichera ce message : -->
-    <p>Voici les paramètres renseignés : <?= $_GET['startDate'] ?> et <?= $_GET['endDate'] ?></p>
+        <p>Voici les paramètres renseignés : <?= $_GET['startDate'] ?> et <?= $_GET['endDate'] ?></p>
     <?php }
-else { ?>
+          else { ?>
     <!-- Sinon la page affichera ceci : -->
-    <p>Les paramètres n'existent pas !</p>
+        <p>Les paramètres n'existent pas !</p>
     <?php } ?>
 </body>
 
